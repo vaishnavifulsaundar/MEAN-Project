@@ -1,0 +1,19 @@
+
+<h1>Data fetch Successfully..</h1>
+
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Batch</th>
+        <th>Fees</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data">
+        <td>{{ item.Batch }}</td>
+        <td>{{ item.Fees }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
